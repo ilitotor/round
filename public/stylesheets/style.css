@@ -1,0 +1,76 @@
+body{
+	margin: 10px;
+	height: 100%;
+	/*background-image:url('../images/bg_repeat.jpg'); */
+	background-repeat:repeat;
+	font-size: 16px;
+}
+
+#container{
+	width: 735px;
+	margin-top: -10px;
+	margin-left:auto;
+	margin-right: auto;
+	background-image:url('../images/bg_light.png');
+	background-repeat:no-repeat;
+}
+
+
+/* -------------- BEGIN COUNTER ---------------------*/
+
+#countbox{
+	padding-top: 50px;
+	color: #fff;
+	font-size: 70px;
+	width: 432px;
+	height: 200px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+
+#mins{
+	float: left;
+	text-align: center;
+	background-image:url('../images/flip.png');
+	background-repeat:no-repeat;
+	margin: 0 7px 0 7px;
+	height: 89px;
+	width: 94px;
+    z-index:1;
+}
+
+		#mins_text{
+			background-image:url('../images/mins_text.jpg');
+			background-position: center;
+			background-repeat:no-repeat;
+			position: absolute;
+			margin-top: 10px;
+			height: 26px;
+			width: 94px;
+		}
+
+#secs{
+	float: left;
+	text-align: center;
+	background-image:url('../images/flip.png');
+	background-repeat:no-repeat;
+	margin: 0 7px 0 7px;
+	height: 89px;
+	width: 94px;
+    z-index:1;
+}
+
+		#secs_text{
+			background-image:url('../images/secs_text.jpg');
+			background-position: center;
+			background-repeat:no-repeat;
+			position: absolute;
+			margin-top: 10px;
+			height: 26px;
+			width: 94px;
+		}
+
+
+/* -------------- END COUNTER ---------------------*/
+
