@@ -3,7 +3,11 @@
   , "version": "0.0.1"
   , "private": true
   , "dependencies": {
+<<<<<<< HEAD
       "express": "2.5.5"
+=======
+      "express": "2.5.10"
+>>>>>>> c251a94dd6031a4795c2f49c9b5401214fc0a9b4
     , "jade": ">= 0.0.1"
   }
 }
