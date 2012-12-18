@@ -12,3 +12,7 @@ exports.index = function(req, res){
 exports.config = function(req, res){
   res.render('config', { title: 'ooooi' })
 };
+
+exports.teste = function(req, res){
+  res.render('teste', { title: 'ooooi' })
+};

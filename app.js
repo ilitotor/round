@@ -33,6 +33,8 @@ app.get('/index', routes.index);
 
 app.get('/config', routes.config);
 
+app.get('/teste', routes.teste);
+
 app.post('/index', routes.index);
 
 

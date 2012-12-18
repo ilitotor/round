@@ -1,0 +1,17 @@
+head
+	title= title
+	link(rel='stylesheet', href='/stylesheets/style.css')
+body 
+	a(href='/') Home
+	p
+		form(method='post', action='/index')
+			|Settings do Timer
+			div
+				label
+				| Minutos 
+				input(type='text', name='mins', label='minutos')
+				p
+				| Segundos 
+				input(type='text', name='secs',  label='segundos')
+				p
+				input(type='submit', value='Enviar')
